@@ -7,14 +7,14 @@
 其它：老干妈土豆丝
 要求：根据用户输入星期几，输出特价菜是什么？
 '''
-# data=input('请输入星期信息：')
-# if data=='星期一':
+# data = input('请输入星期信息：')
+# if data == '星期一':
 #     print('今天的特价菜是：{}'.format('水煮鱼'))
-# elif data=='星期二':
+# elif data == '星期二':
 #     print('今天的特价菜是：{}'.format('烧排骨'))
-# elif data=='星期三' or data=='星期四':
+# elif data == '星期三' or data=='星期四':
 #     print('今天的特价菜是：{}'.format('宫爆鸡丁'))
-# elif data=='星期五' or data=='星期六':
+# elif data == '星期五' or data == '星期六':
 #     print('今天的特价菜是：{}'.format('清蒸鲈鱼'))
 # else:
 #     print('今天的特价菜是：{}'.format('老干妈土豆丝'))
@@ -27,8 +27,8 @@
 如果成绩>=60,输出“中等”；
 否则，输出“差”。
 '''
-# score=float(input('请输入学生成绩：'))
-# a='优秀'
+# score = float(input('请输入学生成绩：'))
+# a = '优秀'
 # b='良好'
 # c='中等'
 # d='差'
@@ -64,21 +64,21 @@
 开发一个计算器，用户输入一个数、加减乘除、第二个数，控制台显示计算结果。
 '''
 print('--欢迎使用ZZ计算器！--')
-num1=float(input('请输入第一个数num1：'))
-AA=input('请输入运算符(+、-、*、/)：')
-num2=float(input('请输入第二个数num2：'))
-result=0  #用来保存计算结果
-msg=1  #记录是否有结果，1有结果  0 无结果
-if AA=='+':
-    result=num1+num2
-elif AA=='-':
-    result=num1-num2
-elif AA=='*':
-    result=num1*num2
-elif AA=='/':
-    result=num1/num2
+num1 = float(input('请输入第一个数num1：'))
+AA = input('请输入运算符(+、-、*、/)：')
+num2 = float(input('请输入第二个数num2：'))
+result = 0  # 用来保存计算结果
+msg = 1  # 记录是否有结果，1有结果  0 无结果
+if AA == '+':
+    result = num1+num2
+elif AA == '-':
+    result = num1-num2
+elif AA == '*':
+    result = num1*num2
+elif AA == '/':
+    result = num1/num2
 else:
     print('无此计算方式！')
     msg = 0
-if msg==1:
-    print('计算结果：',result)
+if msg == 1:
+    print('计算结果：', result)

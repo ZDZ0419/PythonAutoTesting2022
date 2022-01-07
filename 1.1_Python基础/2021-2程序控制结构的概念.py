@@ -23,6 +23,7 @@ while 判断条件
 names=['张三','李四','王五','赵柳','孙琦']
 for name in names:
     print(name)
+    print('#######')
 # 构造索引遍历（列表、元组）
 for i in range(0,len(names)):
     print(names[i])

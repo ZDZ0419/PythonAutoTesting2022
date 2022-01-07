@@ -13,7 +13,6 @@ def test_case3(login):
     print('开始执行 test_case3 方法  要登录')
     pass
 
-
 if __name__ == '__main__':
     pytest.main()
     # pytest.main("-v -x Testdemo")   #带参数调用方式1

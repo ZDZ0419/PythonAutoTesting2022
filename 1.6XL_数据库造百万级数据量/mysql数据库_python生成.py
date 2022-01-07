@@ -19,13 +19,13 @@ class MyPyMysql:
 
     # 连接 mysql 数据库
     def pymysql_connect(self):
-        self.conn=pymysql.connect(host=self.host,
-                                  port=self.port,
-                                  user=self.username,
-                                  password=self.password,
-                                  db=self.db,
-                                  charset=self.charset
-                                  )
+        self.conn = pymysql.connect(host=self.host,
+                                    port=self.port,
+                                    user=self.username,
+                                    password=self.password,
+                                    db=self.db,
+                                    charset=self.charset
+                                    )
     # 连接 mysql 数据库后执行的函数：--
         self.asynchronous()
 

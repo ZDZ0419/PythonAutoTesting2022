@@ -1,17 +1,15 @@
 import requests
 
-base_ur="http://httpbin.org"
+base_ur = "http://httpbin.org"
 
-#
-# r=requests.get(base_ur+"/get")
-# print(r.status_code)
+r = requests.get(base_ur+"/get")
+print(r.status_code)
 # r=requests.post(base_ur+'/post')
 # print(r.status_code)
 # r=requests.put(base_ur+'/put')
 # print(r.status_code)
 # r=requests.delete(base_ur+'/delete')
 # print(r.status_code)
-
 
 ## url参数传递
 # param_data={'user':'zxw','password':'6666'}

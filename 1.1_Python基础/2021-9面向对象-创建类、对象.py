@@ -5,7 +5,7 @@
     3.编写类的方法
 '''
 #创建猫类
-class Cat:
+Class Cat:
     #初始化方法
     def __init__(self,nick,color,age):
         #定义类的属性
