@@ -2,8 +2,9 @@ import pytest
 # import sys
 #可以是string、list、tuple
 #可用于组合查询
+# @pytest.mark.parametrize(要参数化的变量,参数化对应的值)
 # @pytest.mark.parametrize("a,b",[('5+2',7),('6+7',11),('2+2',4)])
-# def test_eval(a,b):
+# def test_eval(a, b):
 #     #eval 将字符串当成有效的表达式求值，并返回结果
 #     assert eval(a) == b
 
@@ -30,8 +31,8 @@ import pytest
 #     assert a != ""
 
  #参数化
-class TestData:
-    @pytest.mark.parametrize("a,b",[(5,7),(8,11),(6,4)])
-    def test_eval(self,a,b):
-        print(a+b)
+# class TestData:
+#     @pytest.mark.parametrize("a,b",[(5,7),(8,11),(6,4)])
+#     def test_eval(self,a,b):
+#         print(a+b)
 

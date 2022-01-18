@@ -302,7 +302,6 @@ while True:
     user_2 = input('输入名：')
     user_3=input('是否退出y/n:')
     if user_3=='y':
-
         break
     elif user_3=='n':
         continue

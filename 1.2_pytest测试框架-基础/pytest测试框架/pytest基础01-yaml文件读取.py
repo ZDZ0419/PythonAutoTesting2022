@@ -3,7 +3,7 @@ import yaml
 
 #可以是列表、字典,也可相互嵌套
 class TestData:
-    @pytest.mark.parametrize(("a","b"),yaml.safe_load(open("./data.yaml")))
+    @pytest.mark.parametrize(("a","b"), yaml.safe_load(open("data.yml")))
     def test_data(self,a,b):
         print(a + b)
 @pytest.mark.parametrize(("a","b"),yaml.safe_load(open("./data1.yml",encoding="UTF-8")))
