@@ -1,13 +1,13 @@
 # from selenium import webdriver
 # from time import sleep
-#
+# #
 # driver=webdriver.Chrome()
-# # 打开百度首页
+# # # 打开百度首页
 # driver.get("http://www.baidu.com")
 #
 # # 【id和name定位元素】
 # driver.find_element_by_id("kw").send_keys("刘德华")      #  id定位
-# driver.find_element_by_name("wd").send_keys("周华健")    #  name定位
+#driver.find_element_by_name("wd").send_keys("周华健")    #  name定位
 #
 # #【class_name定位元素】
 # driver.find_element_by_class_name("s_ipt").send_keys("李子龙")   # class_name定位
