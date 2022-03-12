@@ -166,13 +166,12 @@
 set1={21,31,12,31,33,321,33,12,'李娜'}
 print(set1)
 #集合运算
-set2={1,2,3,4}
-set3={4,5,6,7,8}
-print('两集合的交集:{}'.format(set2&set3)) #交集
-print('两集合的并集:{}'.format(set2|set3)) #并集
-print('两集合的差集:{}'.format(set2-set3)) #差集
-
-
+set2 = {1,2,3,4}
+set3 = {4,5,6,7,8}
+# print('两集合的交集:{}'.format(set2&set3)) #交集
+# print('两集合的并集:{}'.format(set2|set3)) #并集
+print('两集合的差集:{}'.format(set2-set3))   #差集（只取set2中满足条件的）
+print('两集合的差集:{}'.format(set2^set3))   #对称差集（除了交集的部分，其他都取）
 
 
 
