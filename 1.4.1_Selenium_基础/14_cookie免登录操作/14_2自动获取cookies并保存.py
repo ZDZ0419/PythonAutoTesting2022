@@ -38,6 +38,7 @@ class TestDamo():
         #点击“通讯录”标签
         self.driver.find_element(By.ID, 'menu_contacts').click()
         sleep(5)
+        db.close()
 
 if __name__ == '__main__':
     pytest.main()
