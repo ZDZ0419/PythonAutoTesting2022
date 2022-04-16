@@ -10,3 +10,5 @@ set3={4,5,6,7,8}
 print('两集合的交集:{}'.format(set2&set3)) #交集
 print('两集合的并集:{}'.format(set2|set3)) #并集
 print('两集合的差集:{}'.format(set2-set3)) #差集
+
+lx()
