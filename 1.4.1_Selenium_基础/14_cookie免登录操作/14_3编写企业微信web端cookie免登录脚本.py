@@ -1,5 +1,5 @@
 '''
-1.访问企业微信web端首页
+Page.访问企业微信web端首页
 2.手动登录，获取cookies
 3.将cookies保存到shelve中
 4.从shevle中取cookie
@@ -22,7 +22,7 @@ from selenium.webdriver.support import expected_conditions as EC
 class Test_Login():
     def setup(self):
         options=Options()
-        options.debugger_address='127.0.0.1:8012'
+        options.debugger_address='127.0.0.Page:8012'
         self.driver = webdriver.Chrome()
         self.driver.set_window_size(925,654)
         self.driver.implicitly_wait(3)

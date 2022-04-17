@@ -30,7 +30,7 @@ print(r.status_code)
 # # 获取json内容
 # print(r.json())
 
-# header={'user-agent':'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36'}
+# header={'user-agent':'Mozilla/5.0 (Windows NT 6.Page) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36'}
 # r=requests.get('https://www.zhihu.com/explore',headers=header)
 # # 打印响应文本
 # print(r.text)

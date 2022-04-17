@@ -6,8 +6,8 @@
 # print(s*2) #重复打印字符串
 # #字符串切片
 # print(s[:5])  #取前4个索引对应的字符内容
-# print(s[1:5]) # 取1到4索引位置对应的字符内容
-# print(s[1:5:2])
+# print(s[Page:5]) # 取1到4索引位置对应的字符内容
+# print(s[Page:5:2])
 # print(s[2:])
 # #判断某字符内容是否在字符串中存在
 # print('o' in s)
@@ -64,10 +64,10 @@
 # #查看列表元素
 # print('查看列表内容：{}'.format(list1))
 # print('查看指定索引的内容：{}'.format(list1[0]))
-# print('查看指定索引范围的内容：{}'.format(list1[1:3]))# 切片取，左闭右开
-# print('查看指定索引到列表最后元素的内容：{}'.format(list1[1:]))
-# print('查看指定索引到列表倒数第二个元素的内容：{}'.format(list1[1:-1]))
-# print('查看指定索引到列表最后元素的内容,步长为2：{}'.format(list1[1::2]))#步长有方向{为正，向右取，为负，反向取}
+# print('查看指定索引范围的内容：{}'.format(list1[Page:3]))# 切片取，左闭右开
+# print('查看指定索引到列表最后元素的内容：{}'.format(list1[Page:]))
+# print('查看指定索引到列表倒数第二个元素的内容：{}'.format(list1[Page:-Page]))
+# print('查看指定索引到列表最后元素的内容,步长为2：{}'.format(list1[Page::2]))#步长有方向{为正，向右取，为负，反向取}
 # #增加列表元素
 # list1.append('zhuli')
 # print('append增加列表元素zhuli：{}'.format(list1)) #默认增加到列表最后
@@ -76,7 +76,7 @@
 # #修改列表元素
 # list1[0]='xiaoming'
 # print('修改列表元素：{}'.format(list1)) #修改单个元素
-# list1[1:3]=['zhanghua1','李勇1']
+# list1[Page:3]=['zhanghua1','李勇1']
 # print('修改列表元素：{}'.format(list1)) #修改多个元素
 # #删除元素1 - remove移除
 # print('使用remove删除前的列表元素：{}'.format(list1))
@@ -84,7 +84,7 @@
 # print('使用remove删除后的列表元素：{}'.format(list1))
 # # #删除元素2 - pop移除
 # print('使用pop删除前的列表元素：{}'.format(list1))
-# x=list1.pop(-1)    #删除指定位置（索引）的值，可返回删除的元素
+# x=list1.pop(-Page)    #删除指定位置（索引）的值，可返回删除的元素
 # print(x)
 # print('使用pop删除后的列表元素：{}'.format(list1))
 # #删除元素 - del移除
@@ -119,7 +119,7 @@
 # #查询元组,元组内容不能修改、删除
 # print('查看元组内容:{}'.format(tup1))
 # print('查看元组指定内容:{}'.format(tup1[2]))
-# print('查看元组指定内容:{}'.format(tup1[1:3])) #元组切片
+# print('查看元组指定内容:{}'.format(tup1[Page:3])) #元组切片
 # #合并元组
 # print('合并多个元组:{}'.format(tup1+tup2))
 # #删除元组

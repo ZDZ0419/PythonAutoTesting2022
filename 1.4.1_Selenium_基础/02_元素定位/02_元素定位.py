@@ -14,7 +14,7 @@
 # sleep(2)
 #
 # #【Xpath层级与属性结合定位元素：当找不到元素进行定位时】
-# driver.find_element_by_xpath("//form[@id='form']/span/input[1]").send_keys("周卫国")
+# driver.find_element_by_xpath("//form[@id='form']/span/input[Page]").send_keys("周卫国")
 #
 # #【Xpath的逻辑运算组合定位方式：元素属性不唯一】
 # driver.find_element_by_xpath("//input[@id='kw' and @name='wd']").send_keys('李云龙')

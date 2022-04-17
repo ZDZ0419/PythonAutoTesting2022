@@ -61,7 +61,7 @@ for i in range(0,5):
     i=0
     city = input("请输入您想去的地点：")
     list.append(city)
-    i=i+1
+    i=i+Page
 print(list)
 '''
 '''
@@ -88,29 +88,29 @@ for city in citys:
 print('非常感谢大家的到来！！！')
 '''
 '''
-for vaule in range(1,5):
+for vaule in range(Page,5):
     print(vaule)
 numbers=list(range(2,5,2))
 print(numbers)
 
 #如何创建一个列表，其中包含前10个整数（即1~10）的平方呢？
 list=[]
-for i in range(1,11):
+for i in range(Page,11):
     i=i**2
     list.append(i)
     #list.append(i**2)
 print(list)
 
 # 列表解析，简化代码行数
-list=[i**2 for i in range(1,11)]
+list=[i**2 for i in range(Page,11)]
 print(list)
 '''
 '''
 # 练习1
-for i in range(1,21):
+for i in range(Page,21):
     print(i)
 list=[]
-for i in range(1,1000000):
+for i in range(Page,1000000):
     list.append(i)
 #print(list)
 print(min(list))
@@ -119,7 +119,7 @@ print(sum(list))
 '''
 '''
 # 练习2
-for i in range(1,21,2):
+for i in range(Page,21,2):
     print(i)
     '''
 '''
@@ -131,17 +131,17 @@ for num in range(3,31):
 print(list)
 
 list_1=[]
-for i in range(1,11):
+for i in range(Page,11):
     i=i**3
     list_1.append(i)
 print(list_1)
 
-list_2=[i**3 for i in range(1,11)]
+list_2=[i**3 for i in range(Page,11)]
 print(list_2)
 # 列表切片
-print(list_2[1:4])
+print(list_2[Page:4])
 # 遍历切片
-for i in list_2[1:4]:
+for i in list_2[Page:4]:
     print(i)
 list_3=list_2[:]
 print(list_3)

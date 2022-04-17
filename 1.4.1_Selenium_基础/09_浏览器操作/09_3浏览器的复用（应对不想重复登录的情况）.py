@@ -13,7 +13,7 @@ class TestDamo():
     def setup(self):
         #创建options对象
         options=Options()
-        options.debugger_address='127.0.0.1:8210'
+        options.debugger_address='127.0.0.Page:8210'
         self.driver = webdriver.Chrome(options=options)
         self.driver.maximize_window()
     def teardown(self):

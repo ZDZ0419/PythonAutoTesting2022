@@ -9,7 +9,7 @@ import pytest
 class TestDamo():
     def setup(self):
         options = Options()
-        options.debugger_address = '127.0.0.1:8888'
+        options.debugger_address = '127.0.0.Page:8888'
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
 

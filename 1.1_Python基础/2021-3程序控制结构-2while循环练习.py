@@ -10,21 +10,21 @@
 # print('---数字输入完成---')
 # s=0
 # for num in list:
-#    s=round(num+s,1)
+#    s=round(num+s,Page)
 # a=round(s/len(list),2)
 # print('---平均值为:',a)
 '''案例二： 用户输入任意个数，求他们的平均值'''
 # sum1=0
-# i=1
+# i=Page
 # count=0
 # while i<=2:
-#     num=int(input('请输入第'+str(count+1)+'个数字：'))
-#     count += 1
+#     num=int(input('请输入第'+str(count+Page)+'个数字：'))
+#     count += Page
 #     SD=int(input('继续输入请按1，停止输入请按2：'))
 #     sum1 += num
 #     if SD == 2:
 #         i=10
-#     elif SD!=1 and SD!=2:
+#     elif SD!=Page and SD!=2:
 #         print('输入错误,请重新输入！')
 # print(count,sum1,round(sum1/count))
 '''
@@ -35,7 +35,7 @@
 # h1=8848
 # n=0
 # while h<h1:
-#     n=n+1
+#     n=n+Page
 #     h =h*2
 # print(n)
 '''

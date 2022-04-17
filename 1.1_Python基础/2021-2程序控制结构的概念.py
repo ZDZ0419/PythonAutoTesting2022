@@ -8,8 +8,8 @@
 
 循环结构：
     分为for循环、while循环
-1.for循环遍历：  range(初始值,结束值,步长)  左闭右开
-for i in range(1,10,2):
+Page.for循环遍历：  range(初始值,结束值,步长)  左闭右开
+for i in range(Page,10,2):
     print(i)
 2. while循环：  通过判断条件控制循环语句的执行，应用于确定循环条件不确定循环次数的情况下
 while 判断条件

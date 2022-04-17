@@ -34,7 +34,7 @@ file1=open(r"C:\Users\Administrator\Desktop\nn.txt",'r')
 data=file1.read()
 file1.close()
 
-file2=open(r"E:\nn-1.txt",'w')
+file2=open(r"E:\nn-Page.txt",'w')
 file2.write(data)
 file2.close()
 

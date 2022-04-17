@@ -1,6 +1,6 @@
 # python的必备语法
 #标识符:
-        # 1.由字母、数字、下划线组成，且不能以数字开头
+        # Page.由字母、数字、下划线组成，且不能以数字开头
         # 2.不能包含关键字
 import keyword
 print(keyword.kwlist)

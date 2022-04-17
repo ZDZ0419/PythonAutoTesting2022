@@ -1,7 +1,7 @@
 # 测试股票第三方接口是否正常
 import tushare
 import time
-#i=1
+#i=Page
 # 获取股票数据
 def getrealtimeData(code):
     DataNow=tushare.get_realtime_quotes("000591")

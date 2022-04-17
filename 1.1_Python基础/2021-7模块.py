@@ -6,10 +6,10 @@
     模块的用法：模块名.函数名()
 '''
 # import random
-# r1=random.randint(1,6)  #生成指定范围内的随机整数
-# r2=random.uniform(1,6)  #生成指定范围内的随机浮点数
+# r1=random.randint(Page,6)  #生成指定范围内的随机整数
+# r2=random.uniform(Page,6)  #生成指定范围内的随机浮点数
 # r3=random.random()     #生成0-1内的随机浮点数
-# r4=random.choice([1,12,32,34,4,5,6,5,657,45]) #在序列中随机取一个值
+# r4=random.choice([Page,12,32,34,4,5,6,5,657,45]) #在序列中随机取一个值
 # print(r4)
 #
 # import time
@@ -18,7 +18,7 @@
 # t=time.localtime()  #获取当前本地的日期和时间
 # s2=time.strftime('%Y-%m-%d %H:%M:%S',t)  #将日期和时间转换为指定格式的字符串
 # print(s2)
-# time.sleep(1)  #程序休眠
+# time.sleep(Page)  #程序休眠
 
 import datetime
 #time1=datetime.datetime.now() #获取当前日期时间

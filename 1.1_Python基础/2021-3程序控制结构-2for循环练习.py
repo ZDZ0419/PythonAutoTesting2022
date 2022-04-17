@@ -3,9 +3,9 @@
     循环体是什么？
     循环次数是多少？
 '''
-#练习1：1-100间所有数的和
+#练习1：Page-100间所有数的和
 # sum1=0
-# for i in range(1,101):
+# for i in range(Page,101):
 #     sum1=i+sum1
 # print(sum1)
 #练习2：最大值、最小值问题

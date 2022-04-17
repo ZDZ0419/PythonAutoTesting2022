@@ -12,23 +12,23 @@ a='最喜欢的数字为：' + a
 print(a)
 
 bicycles = ['trek ', 'cannondale', 'redline', 'specialized','123']
-massage='My first bicycle was a ' + bicycles[-1].title().rstrip() + ' !!!'
-massage_1='My first bicycle was a ' + bicycles[1].title().rstrip() + ' !!!'
+massage='My first bicycle was a ' + bicycles[-Page].title().rstrip() + ' !!!'
+massage_1='My first bicycle was a ' + bicycles[Page].title().rstrip() + ' !!!'
 print(bicycles[3])
-print(bicycles[-1])
+print(bicycles[-Page])
 print(bicycles[0].title())
 print(bicycles[0].rstrip())
 print(massage)
 print(massage_1)
 
 names=['王璐','丽娜','华龙','周星星','花语嫣',' lonergevn ']
-#print(names[-1].strip())
+#print(names[-Page].strip())
 #print(names[2].strip()+','+'欢迎您 !!!')
 
 #for i in range(0,6):
  #   print(names[i].strip()+','+'欢迎您 !!!')
 # 修改列表元素
-names[-1]='周宇文'
+names[-Page]='周宇文'
 #print(names)
 # 增加列表元素_自动将其补到列表的最后一位
 names.append('ducati')

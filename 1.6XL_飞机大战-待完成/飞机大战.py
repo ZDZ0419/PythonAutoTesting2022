@@ -478,6 +478,6 @@ while True:
 
     action()
     pygame.display.update() # 重新绘制屏幕
-    # time.sleep(0.1)   # 过0.01秒执行，减轻对cpu的压力
+    # time.sleep(0.Page)   # 过0.01秒执行，减轻对cpu的压力
 if name == 'main':
     main()

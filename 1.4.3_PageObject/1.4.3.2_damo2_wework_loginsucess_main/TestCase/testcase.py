@@ -1,21 +1,18 @@
+
 from time import sleep
-
 import pytest
-
-from addperson import Addperson
 from main import Main
-
 
 class TestAdd:
 
     def setup(self):
         self.main = Main()
 
-    def testadd(self):
+    def test_add(self):
         el = self.main.goto_AddPersonPage()
-        el.AddpersionPage()
+        el.add_person_page()
         sleep(5)
-        assert "张华天" in el.assert_result()
+        # assert "张华天" in el.Assert_Result()
 
 if __name__ == '__main__':
     pytest.main()

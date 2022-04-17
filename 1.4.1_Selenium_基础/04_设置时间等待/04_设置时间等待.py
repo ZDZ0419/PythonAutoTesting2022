@@ -1,4 +1,4 @@
-# # 1. 隐式等待：
+# # Page. 隐式等待：
 # from selenium import webdriver
 # from time import sleep,ctime
 # from selenium.webdriver.common.by import By

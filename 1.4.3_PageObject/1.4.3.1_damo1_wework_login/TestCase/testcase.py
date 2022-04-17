@@ -1,5 +1,7 @@
 import pytest
+
 from index import Index
+
 
 class TestRegiter:
 

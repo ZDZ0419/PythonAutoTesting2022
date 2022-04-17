@@ -8,4 +8,4 @@
 # allure generate ./myallure/ -o ./report/ --clean
 # 备注：使用--clean先清空report文件夹，再生成新的测试报告
 
-# 本地浏览器打开测试报告：allure  open  -h 127.0.0.1-p8883./report
+# 本地浏览器打开测试报告：allure  open  -h 127.0.0.Page-p8883./report

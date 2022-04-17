@@ -9,7 +9,7 @@ import pytest
 class TestDamo():
     def setup(self):
         # options = Options()
-        # options.debugger_address = '127.0.0.1:8888'
+        # options.debugger_address = '127.0.0.Page:8888'
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
 
@@ -31,7 +31,7 @@ class TestDamo():
             {'domain': '.work.weixin.qq.com', 'httpOnly': True, 'name': 'wwrtx.ref', 'path': '/', 'secure': False,
              'value': 'direct'},
             {'domain': '.work.weixin.qq.com', 'httpOnly': True, 'name': 'wwrtx.ltype', 'path': '/', 'secure': False,
-             'value': '1'},
+             'value': 'Page'},
             {'domain': '.work.weixin.qq.com', 'httpOnly': True, 'name': 'wwrtx.refid', 'path': '/', 'secure': False,
              'value': '34120057432836567'},
             {'domain': '.work.weixin.qq.com', 'httpOnly': True, 'name': 'wwrtx.sid', 'path': '/', 'secure': False,
