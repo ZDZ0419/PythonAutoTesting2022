@@ -1,16 +1,16 @@
-from  base_page import *
+from base_page import *
 from selenium.webdriver.common.by import By
 
 class LoginPage(Page):
     # url='/'
-    url='/List.aspx?cid=390'
+    url = '/List.aspx?cid=390'
 
-    #创建元素定位器
-    submit_loc=(By.LINK_TEXT,"登录/注册")
-    link_loc=(By.XPATH,"//div[@class='mode mt-10 text-c']/a[@class='checked']")
-    username_loc=(By.NAME,"loginStr")
-    password_loc=(By.NAME,"pwd")
-    submit_loc_1=(By.CSS_SELECTOR,".btn.radius.size-L.btn-danger")
+    # 创建元素定位器
+    submit_loc = (By.LINK_TEXT, "登录/注册")
+    link_loc = (By.XPATH, "//div[@class='mode mt-10 text-c']/a[@class='checked']")
+    username_loc = (By.NAME, "loginStr")
+    password_loc = (By.NAME, "pwd")
+    submit_loc_1 = (By.CSS_SELECTOR, ".btn.radius.size-L.btn-danger")
     # assert_loc = (By.CSS_SELECTOR, "div.user.pos-r>span.text-overflow.mr-5")   #断言登录是否成功定位器
 
 
