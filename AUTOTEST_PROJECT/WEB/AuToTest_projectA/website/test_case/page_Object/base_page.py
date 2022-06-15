@@ -14,7 +14,7 @@ class Page():
         self.driver.maximize_window()
         self.driver.get(url_)
         sleep(2)
-        assert self.driver.current_url == url_ ,'Did not land on %s' %url_
+        assert self.driver.current_url == url_, 'Did not land on %s' %url_
 
     def open(self):
         self._open(self.url)
