@@ -10,11 +10,11 @@ class Page():
 
     def _open(self, url):
         url_ = self.base_url+url
-        print(">>>>>>>>>>>>>>Test page is %s<<<<<<<<<<<<<<<<<<<" %url_)
+        print(">>>>>>>>>>>>>>Test page is:%s<<<<<<<<<<<<<<<<<<<" % url_)
         self.driver.maximize_window()
         self.driver.get(url_)
         sleep(2)
-        assert self.driver.current_url == url_, 'Did not land on %s' %url_
+        assert self.driver.current_url == url_, 'Did not land on %s' % url_
 
     def open(self):
         self._open(self.url)
