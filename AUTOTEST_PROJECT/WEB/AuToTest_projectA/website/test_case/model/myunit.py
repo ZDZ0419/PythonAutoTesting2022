@@ -1,6 +1,7 @@
 import unittest
 from driver import *
 
+# 封装用例执行前、执行后的操作
 class StartEnd(unittest.TestCase):
     def setUp(self):
         self.driver=browser()
