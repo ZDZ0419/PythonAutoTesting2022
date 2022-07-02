@@ -12,7 +12,7 @@ class Login_Test(myunit.StartEnd):
         sleep(2)
 
         self.assertEqual(po.type_loginPass_hint(), 'Test0123456')
-        function.insert_img(self.driver, '账号密码正确login_1.jpg')
+        function.insert_img(self.driver, '账号密码正确login_1.png')
         print('test1_END')
 
     def test_login2(self):
@@ -27,7 +27,7 @@ class Login_Test(myunit.StartEnd):
         #断言：内容是否在网页源码中存在
         self.assertIn("登录失败，请检查登录信息是否有误", html)
         # self.assertEqual(po.type_loginFlase1_hint(),'登录失败，请检查登录信息是否有误')
-        function.insert_img(self.driver, '账号正确密码不正确login_2.jpg')
+        function.insert_img(self.driver, '账号正确密码不正确login_2.png')
         print('test2_END')
 
     def test_login3(self):
